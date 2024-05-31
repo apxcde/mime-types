@@ -1,0 +1,21 @@
+{
+    "name": "apxcde/mime-types",
+    "description": "A converter between mime types and file extensions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erick Mwamodo",
+            "email": "erick@apexcode.dev"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Apxcde\\MimeTypes\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.6"
+    }
+}
